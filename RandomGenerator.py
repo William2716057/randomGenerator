@@ -8,3 +8,6 @@ def generate_random_string(length=8):
     return random_string
 
 print(generate_random_string())
+
+sample_bytes = generate_random_string().encode("ascii")
+print(sample_bytes)
